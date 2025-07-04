@@ -3,10 +3,11 @@ import { getProductById } from '@/lib/mockData';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const product = getProductById(params.id);
+    const { id } = await params;
+    const product = getProductById(id);
     
     if (!product) {
       return NextResponse.json({ error: 'Product not found' }, { status: 404 });
