@@ -10,6 +10,73 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* SAHELI Brand Colors */
+  --color-primary-50: #fefdfb;
+  --color-primary-100: #fdfbf6;
+  --color-primary-200: #f9f4e8;
+  --color-primary-300: #f3ebd5;
+  --color-primary-400: #ebddb8;
+  --color-primary-500: #dfc894;
+  --color-primary-600: #d1b57a;
+  --color-primary-700: #bf9e5f;
+  --color-primary-800: #9c8249;
+  --color-primary-900: #826b3c;
+  
+  --color-cream-50: #fffef9;
+  --color-cream-100: #fffcf0;
+  --color-cream-200: #fef7dc;
+  --color-cream-300: #fdefbf;
+  --color-cream-400: #fbe497;
+  --color-cream-500: #f7d56a;
+  --color-cream-600: #e9c247;
+  --color-cream-700: #d4aa2e;
+  --color-cream-800: #b08b23;
+  --color-cream-900: #8f6f1d;
+  
+  --color-warm-50: #faf9f7;
+  --color-warm-100: #f4f2ee;
+  --color-warm-200: #e9e4db;
+  --color-warm-300: #dbd2c3;
+  --color-warm-400: #c9bba4;
+  --color-warm-500: #b5a082;
+  --color-warm-600: #a08863;
+  --color-warm-700: #887149;
+  --color-warm-800: #6f5d3c;
+  --color-warm-900: #5c4d32;
+  
+  --color-sage-50: #f7f8f6;
+  --color-sage-100: #eef0eb;
+  --color-sage-200: #dce1d4;
+  --color-sage-300: #c4ccb4;
+  --color-sage-400: #a8b18f;
+  --color-sage-500: #8e966e;
+  --color-sage-600: #787f5a;
+  --color-sage-700: #63674a;
+  --color-sage-800: #52543e;
+  --color-sage-900: #444634;
+  
+  --color-neutral-50: #fafaf9;
+  --color-neutral-100: #f4f4f2;
+  --color-neutral-200: #e8e7e4;
+  --color-neutral-300: #d7d5d0;
+  --color-neutral-400: #bfbcb5;
+  --color-neutral-500: #a39e94;
+  --color-neutral-600: #8b857a;
+  --color-neutral-700: #746f65;
+  --color-neutral-800: #605c54;
+  --color-neutral-900: #504c46;
+  
+  --color-accent-50: #f9f8f6;
+  --color-accent-100: #f0eeea;
+  --color-accent-200: #e1dcd2;
+  --color-accent-300: #cdc5b4;
+  --color-accent-400: #b5a88f;
+  --color-accent-500: #9e8b6e;
+  --color-accent-600: #8a7559;
+  --color-accent-700: #73614a;
+  --color-accent-800: #5e503e;
+  --color-accent-900: #4e4235;
 }
 
 @media (prefers-color-scheme: dark) {
